@@ -1,0 +1,341 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'PT sans', sans-serif;
+    box-sizing: border-box;
+}
+.showcase{
+height: 100vh;
+width: 100%;
+background-color: antiquewhite;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color:#f9004d ;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: black;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+} 
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+      color: #f9004d;
+      transition: .4s;
+    
+    }
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+.newslatter{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.newslatter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #f9004d ;
+    outline: none;
+    border-radius: 30px;
+}
+ img{
+    position: relative;
+    top: 50px;
+    width: 300px;
+    height: 350px;
+    bottom: 60px;
+    right: 200px;
+    left: 120px;
+} 
+.newslatter form input:last-child{
+    position: absolute;
+    top: 70px;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #f9004d;
+    color: white;
+    box-shadow: 0px 0px 5px #000,0px 0px 15px #858585;
+}
+.about{
+    width: 100%;
+    padding:100px 0px ;
+    background-color: #f2c398;
+    height: 65vh;
+}
+.about img{
+    height: 350px;
+    width: 430px;
+    left: 10px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color:black;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text p{
+ letter-spacing: 1px;
+ line-height: 20px;
+ font-size: 18px;
+ font-style: italic;
+ margin-bottom: 45px;
+}
+button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button:hover{
+    background-color:#f9004d;
+    border: 2px solid;
+}
+.service{
+    width: 100%;
+    padding:100px 0px ;
+    background-color: #f2c398;
+    height: 73vh;
+}
+.title{
+    background-color:#f2c398 ;
+     height: 100vh;
+    width: 100%;
+     overflow-y: hidden; 
+}
+.title h2 {
+    
+    position:relative;
+    left: 28%;
+    text-align: center;
+    height: 100px;
+    font-size: 75px; 
+    top:6%;
+}
+.title ul{
+    
+    text-align :20px;
+    top: 15%;
+    margin-left:2%;
+    margin-top: 50px;
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+.title img{ 
+    position: relative;
+    height: 350px;
+    width: 600px;
+    right: 20%;
+    left: 20%;
+    top: 30%;
+    bottom: 30px; 
+}  
+
+.serve{
+    background: #f2c398;
+    width: 100%;
+    padding: 100px 0px;
+}
+.header h2{
+    color:black;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #766984;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #f9004d;
+
+}
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color: #e8e3ee;
+    font-size: 10px;
+    line-height: 27px;
+    margin-bottom: 25px;
+
+}
+.card .button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.card .button:hover{
+    background-color:#f9004d;
+    border: 2px solid;
+}
+.contact{
+    width: 100%;
+    height: 73vh;
+    overflow-y: hidden;
+}
+.contact h2{
+    position:relative;
+    text-align: center;
+    height: 100px;
+    font-size: 75px; 
+    margin-top: auto;
+}
+.submission{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+ .submission form input:first-child{
+    margin-left: 10px;
+    display: inline-block;
+    width: 100%;
+    margin: 20px;
+    padding: 14px 160px 14px 15px;
+    border: 2px solid #f9004d ;
+    outline: none;
+    border-radius: 30px;
+}
+ .button1{
+    display:block; margin: 0 auto;
+    text-align: center;
+    left: 39%;
+    position:absolute ;
+    top: 98%;
+    background-color: #a24f5c;
+    color:#e8e8e8;
+}
+.contact img{
+    position: relative;
+    width: 350px;
+    overflow-y: hidden;
+    top: 0;
+    margin: 0;
+    height: 250px;
+    bottom: 60px;
+    right: 100px;
+    left: 200px;
+}
+.footer-bottom{
+     width: 100%;
+    height: 75px;
+    margin-bottom: 0;
+    position: absolute;
+    margin-bottom: auto;
+}
+.footer-bottom  p{
+    font-weight:bold ;
+    padding: 0;
+    margin: 0;
+    display: inline;
+    color:#000;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 500px;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 2px;
+    border-radius: 50%;
+  }
+   .fa:hover {
+    opacity: 0.7;
+  } 
+  .fa-instagram{
+    background-color: #ff1a8c;
+    color: white;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }  
+  .fa-whatsapp{
+    background: #55e321;
+    color: white;
+  }
+  .fa-linkedin{
+    background: skyblue;
+    color: white;
+  }
+
+
+
+
+
+ 
+
+
